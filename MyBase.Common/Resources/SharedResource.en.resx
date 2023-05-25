@@ -1,0 +1,1978 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Actions" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Added successfully" xml:space="preserve">
+    <value>Added successfully</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="Application Fee" xml:space="preserve">
+    <value>Application Fee</value>
+  </data>
+  <data name="ar-EG-Flag" xml:space="preserve">
+    <value>ar-SA-Flag</value>
+  </data>
+  <data name="ar-SA-Flag" xml:space="preserve">
+    <value>ar-SA-Flag</value>
+  </data>
+  <data name="Arabic (Egypt)" xml:space="preserve">
+    <value>Arabic</value>
+  </data>
+  <data name="Arabic Name" xml:space="preserve">
+    <value>Arabic Name</value>
+  </data>
+  <data name="Are you sure you want to delete ...?" xml:space="preserve">
+    <value>Are you sure you want to delete ...?</value>
+  </data>
+  <data name="Assign Permissions" xml:space="preserve">
+    <value>Assign Permissions</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="Bus Areas" xml:space="preserve">
+    <value>Bus Areas</value>
+  </data>
+  <data name="Buses" xml:space="preserve">
+    <value>Buses</value>
+  </data>
+  <data name="Can't delete..!" xml:space="preserve">
+    <value>Can't delete..!</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Choose From Profiles To Assign For This User" xml:space="preserve">
+    <value>Choose From Profiles To Assign For This User</value>
+  </data>
+  <data name="Classes" xml:space="preserve">
+    <value>Classes</value>
+  </data>
+  <data name="Courses" xml:space="preserve">
+    <value>Courses</value>
+  </data>
+  <data name="Create Class" xml:space="preserve">
+    <value>Create Class</value>
+  </data>
+  <data name="Create Education Department" xml:space="preserve">
+    <value>Create Education Department</value>
+  </data>
+  <data name="Create Fees" xml:space="preserve">
+    <value>Create Fees</value>
+  </data>
+  <data name="Create Fees Discounts" xml:space="preserve">
+    <value>Create Fees Discounts</value>
+  </data>
+  <data name="Create Grade" xml:space="preserve">
+    <value>Create Grade</value>
+  </data>
+  <data name="Create Main Fees" xml:space="preserve">
+    <value>Create Main Fees</value>
+  </data>
+  <data name="Create School" xml:space="preserve">
+    <value>Create School</value>
+  </data>
+  <data name="Create School Year" xml:space="preserve">
+    <value>Create School Year</value>
+  </data>
+  <data name="Create Stage" xml:space="preserve">
+    <value>Create Stage</value>
+  </data>
+  <data name="Create Static Fees" xml:space="preserve">
+    <value>Create Static Fees</value>
+  </data>
+  <data name="Create Term" xml:space="preserve">
+    <value>Create Term</value>
+  </data>
+  <data name="Create User Profiles" xml:space="preserve">
+    <value>Create User Profiles</value>
+  </data>
+  <data name="Create Week" xml:space="preserve">
+    <value>Create Week</value>
+  </data>
+  <data name="de-DE-Flag" xml:space="preserve">
+    <value>de-DE-Flag</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Deleted successfully" xml:space="preserve">
+    <value>Deleted successfully</value>
+  </data>
+  <data name="Deleted Successfully..!" xml:space="preserve">
+    <value>Deleted Successfully..!</value>
+  </data>
+  <data name="Dismiss_Request" xml:space="preserve">
+    <value>Dismiss Request</value>
+  </data>
+  <data name="Due Date" xml:space="preserve">
+    <value>Due Date</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Edit Class" xml:space="preserve">
+    <value>Edit Class</value>
+  </data>
+  <data name="Edit Education Department" xml:space="preserve">
+    <value>Edit Education Department</value>
+  </data>
+  <data name="Edit Fees" xml:space="preserve">
+    <value>Edit Fees</value>
+  </data>
+  <data name="Edit Fees Discounts" xml:space="preserve">
+    <value>Edit Fees Discounts</value>
+  </data>
+  <data name="Edit Grade" xml:space="preserve">
+    <value>Edit Grade</value>
+  </data>
+  <data name="Edit School" xml:space="preserve">
+    <value>Edit School</value>
+  </data>
+  <data name="Edit School Year" xml:space="preserve">
+    <value>Edit School Year</value>
+  </data>
+  <data name="Edit Stage" xml:space="preserve">
+    <value>Edit Stage</value>
+  </data>
+  <data name="Edit Static Fees" xml:space="preserve">
+    <value>Edit Static Fees</value>
+  </data>
+  <data name="Edit Term" xml:space="preserve">
+    <value>Edit Term</value>
+  </data>
+  <data name="Edit Week" xml:space="preserve">
+    <value>Edit Week</value>
+  </data>
+  <data name="Education Department" xml:space="preserve">
+    <value>Education Department</value>
+  </data>
+  <data name="Education Departments" xml:space="preserve">
+    <value>Education Departments</value>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="End Date" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="English (United States)" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="Expense Categories" xml:space="preserve">
+    <value>Expense Categories</value>
+  </data>
+  <data name="Facebook" xml:space="preserve">
+    <value>Facebook</value>
+  </data>
+  <data name="Fees" xml:space="preserve">
+    <value>Fees</value>
+  </data>
+  <data name="Fees Discounts" xml:space="preserve">
+    <value>Fees Discounts</value>
+  </data>
+  <data name="Fees Groups" xml:space="preserve">
+    <value>Fees Groups</value>
+  </data>
+  <data name="Fees Types" xml:space="preserve">
+    <value>Fees Types</value>
+  </data>
+  <data name="Finance" xml:space="preserve">
+    <value>Finance</value>
+  </data>
+  <data name="First Quarter End Date" xml:space="preserve">
+    <value>First Quarter End Date</value>
+  </data>
+  <data name="First Quarter Start Date" xml:space="preserve">
+    <value>First Quarter Start Date</value>
+  </data>
+  <data name="First Term End Date" xml:space="preserve">
+    <value>First Term End Date</value>
+  </data>
+  <data name="First Term Start Date" xml:space="preserve">
+    <value>First Term Start Date</value>
+  </data>
+  <data name="Fourth Quarter End Date" xml:space="preserve">
+    <value>Fourth Quarter End Date</value>
+  </data>
+  <data name="Fourth Quarter Start Date" xml:space="preserve">
+    <value>Fourth Quarter Start Date</value>
+  </data>
+  <data name="ft-arrow-left" xml:space="preserve">
+    <value>ft-arrow-left</value>
+  </data>
+  <data name="Grade" xml:space="preserve">
+    <value>Grade</value>
+  </data>
+  <data name="Grades" xml:space="preserve">
+    <value>Grades</value>
+  </data>
+  <data name="Head" xml:space="preserve">
+    <value>Head</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="LTR" xml:space="preserve">
+    <value>LTR</value>
+  </data>
+  <data name="Main Fees" xml:space="preserve">
+    <value>Main Fees</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>Manager</value>
+  </data>
+  <data name="Max Lectures" xml:space="preserve">
+    <value>Max Lectures</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="Must Be Not Empty" xml:space="preserve">
+    <value>Must Be Not Empty</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Percentage" xml:space="preserve">
+    <value>Percentage</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="Please choose at leaste one profile" xml:space="preserve">
+    <value>Please choose at leaste one profile</value>
+  </data>
+  <data name="Please, Add School First" xml:space="preserve">
+    <value>Please, Add School First</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="Profiles" xml:space="preserve">
+    <value>Profiles</value>
+  </data>
+  <data name="Remove All Profiles" xml:space="preserve">
+    <value>Remove All Profiles</value>
+  </data>
+  <data name="Repeated" xml:space="preserve">
+    <value>Repeated</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>Required</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="School" xml:space="preserve">
+    <value>School</value>
+  </data>
+  <data name="School Type" xml:space="preserve">
+    <value>School Type</value>
+  </data>
+  <data name="SchoolYear" xml:space="preserve">
+    <value>School Year</value>
+  </data>
+  <data name="School Years" xml:space="preserve">
+    <value>School Years</value>
+  </data>
+  <data name="Schools" xml:space="preserve">
+    <value>Schools</value>
+  </data>
+  <data name="Second Quarter End Date" xml:space="preserve">
+    <value>Second Quarter End Date</value>
+  </data>
+  <data name="Second Quarter Start Date" xml:space="preserve">
+    <value>Second Quarter Start Date</value>
+  </data>
+  <data name="Second Term End Date" xml:space="preserve">
+    <value>Second Term End Date</value>
+  </data>
+  <data name="Second Term Start Date" xml:space="preserve">
+    <value>Second Term Start Date</value>
+  </data>
+  <data name="Selling_Invoice" xml:space="preserve">
+    <value>Selling Invoice</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Stage" xml:space="preserve">
+    <value>Stage</value>
+  </data>
+  <data name="Stages" xml:space="preserve">
+    <value>Stages</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Start Date" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="Static Fees" xml:space="preserve">
+    <value>Static Fees</value>
+  </data>
+  <data name="Term" xml:space="preserve">
+    <value>Term</value>
+  </data>
+  <data name="Terms" xml:space="preserve">
+    <value>Terms</value>
+  </data>
+  <data name="Third Quarter End Date" xml:space="preserve">
+    <value>Third Quarter End Date</value>
+  </data>
+  <data name="Third Quarter Start Date" xml:space="preserve">
+    <value>Third Quarter Start Date</value>
+  </data>
+  <data name="toast-top-right" xml:space="preserve">
+    <value>toast-top-right</value>
+  </data>
+  <data name="Two_Way" xml:space="preserve">
+    <value>Two Way</value>
+  </data>
+  <data name="Updated successfully" xml:space="preserve">
+    <value>Updated successfully</value>
+  </data>
+  <data name="us" xml:space="preserve">
+    <value>us</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="Users Managment" xml:space="preserve">
+    <value>Users Managment</value>
+  </data>
+  <data name="WebSite" xml:space="preserve">
+    <value>WebSite</value>
+  </data>
+  <data name="Week" xml:space="preserve">
+    <value>Week</value>
+  </data>
+  <data name="Weeks" xml:space="preserve">
+    <value>Weeks</value>
+  </data>
+  <data name="Without Bus Area" xml:space="preserve">
+    <value>Without Bus Area</value>
+  </data>
+  <data name="All Fees Groups" xml:space="preserve">
+    <value>All Fees Groups</value>
+  </data>
+  <data name="All Grades" xml:space="preserve">
+    <value>All Grades</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="File size should be less 2 migabyte" xml:space="preserve">
+    <value>File size should be less 2 migabyte</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="Book Fees" xml:space="preserve">
+    <value>Book Fees</value>
+  </data>
+  <data name="Edit Main Fees" xml:space="preserve">
+    <value>Edit Main Fees</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="School Fees" xml:space="preserve">
+    <value>School Fees</value>
+  </data>
+  <data name="Uniform Fees" xml:space="preserve">
+    <value>Uniform Fees</value>
+  </data>
+  <data name="Create Join Fees" xml:space="preserve">
+    <value>Create Join Fees</value>
+  </data>
+  <data name="Edit Join Fees" xml:space="preserve">
+    <value>Edit Join Fees</value>
+  </data>
+  <data name="Join Fees" xml:space="preserve">
+    <value>Join Fees</value>
+  </data>
+  <data name="Create Optional Fees" xml:space="preserve">
+    <value>Create Optional Fees</value>
+  </data>
+  <data name="Edit Optional Fees" xml:space="preserve">
+    <value>Edit Optional Fees</value>
+  </data>
+  <data name="Optional Fees" xml:space="preserve">
+    <value>Optional Fees</value>
+  </data>
+  <data name="Students Discounts" xml:space="preserve">
+    <value>Students Discounts</value>
+  </data>
+  <data name="Student" xml:space="preserve">
+    <value>Student</value>
+  </data>
+  <data name="Students" xml:space="preserve">
+    <value>Students</value>
+  </data>
+  <data name="Create Student Wallet" xml:space="preserve">
+    <value>Create Student Wallet</value>
+  </data>
+  <data name="Pay Date" xml:space="preserve">
+    <value>Pay Date</value>
+  </data>
+  <data name="Student Wallet" xml:space="preserve">
+    <value>Student Wallet</value>
+  </data>
+  <data name="Transaction Type" xml:space="preserve">
+    <value>Transaction Type</value>
+  </data>
+  <data name="Fees Type" xml:space="preserve">
+    <value>Fees Type</value>
+  </data>
+  <data name="Identity Number" xml:space="preserve">
+    <value>Identity Number</value>
+  </data>
+  <data name="paid" xml:space="preserve">
+    <value>paid</value>
+  </data>
+  <data name="Students Payments" xml:space="preserve">
+    <value>Students Payments</value>
+  </data>
+  <data name="Wallet" xml:space="preserve">
+    <value>Wallet</value>
+  </data>
+  <data name="You can not retrieve this purchase cause due date" xml:space="preserve">
+    <value>You can not retrieve this purchase cause due date</value>
+  </data>
+  <data name="You cannot retrieve this order because due date" xml:space="preserve">
+    <value>You cannot retrieve this order because due date</value>
+  </data>
+  <data name="Your request have invalid data please check your data request" xml:space="preserve">
+    <value>Your request have invalid data please check your data request</value>
+  </data>
+  <data name="Remain" xml:space="preserve">
+    <value>Remain</value>
+  </data>
+  <data name="Payment Method" xml:space="preserve">
+    <value>Payment Method</value>
+  </data>
+  <data name="Student Payments" xml:space="preserve">
+    <value>Student Payments</value>
+  </data>
+  <data name="Required Value" xml:space="preserve">
+    <value>Required Value</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Wallet Remain" xml:space="preserve">
+    <value>Wallet Remain</value>
+  </data>
+  <data name="Paid Values" xml:space="preserve">
+    <value>Paid Values</value>
+  </data>
+  <data name="Fees Group Students" xml:space="preserve">
+    <value>Fees Group Students</value>
+  </data>
+  <data name="Cannot Change Group, Student Have Already Paid Fees" xml:space="preserve">
+    <value>Cannot Change Group, Student Have Already Paid Fees</value>
+  </data>
+  <data name="Changed Successfully..!" xml:space="preserve">
+    <value>Changed Successfully..!</value>
+  </data>
+  <data name="Current Year" xml:space="preserve">
+    <value>Current Year</value>
+  </data>
+  <data name="Cannot Change Grade, Student Have Already Paid Fees" xml:space="preserve">
+    <value>Cannot Change Grade, Student Have Already Paid Fees</value>
+  </data>
+  <data name="Accepted" xml:space="preserve">
+    <value>Accepted</value>
+  </data>
+  <data name="Add Detail" xml:space="preserve">
+    <value>Add Detail</value>
+  </data>
+  <data name="Add New" xml:space="preserve">
+    <value>Add New</value>
+  </data>
+  <data name="Add New Category" xml:space="preserve">
+    <value>Add New Category</value>
+  </data>
+  <data name="Add New Category To Existing" xml:space="preserve">
+    <value>Add New Category To Existing</value>
+  </data>
+  <data name="Add To Existing" xml:space="preserve">
+    <value>Add To Existing</value>
+  </data>
+  <data name="Admission" xml:space="preserve">
+    <value>Admission</value>
+  </data>
+  <data name="Admission Setting" xml:space="preserve">
+    <value>Admission Setting</value>
+  </data>
+  <data name="Are you sure you want to delete this category?" xml:space="preserve">
+    <value>Are you sure you want to delete this category?</value>
+  </data>
+  <data name="Edit Student" xml:space="preserve">
+    <value>Edit Student</value>
+  </data>
+  <data name="EducationalMandate" xml:space="preserve">
+    <value>EducationalMandate</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Emails" xml:space="preserve">
+    <value>Emails</value>
+  </data>
+  <data name="English Name" xml:space="preserve">
+    <value>English Name</value>
+  </data>
+  <data name="Create School Expenses" xml:space="preserve">
+    <value>Create School Expenses</value>
+  </data>
+  <data name="Edit School Expenses" xml:space="preserve">
+    <value>Edit School Expenses</value>
+  </data>
+  <data name="School Expenses" xml:space="preserve">
+    <value>School Expenses</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Book Fees Discount" xml:space="preserve">
+    <value>Book Fees Discount</value>
+  </data>
+  <data name="Last Discounts" xml:space="preserve">
+    <value>Last Discounts</value>
+  </data>
+  <data name="School Fees Discount" xml:space="preserve">
+    <value>School Fees Discount</value>
+  </data>
+  <data name="Uniform Fees Discount" xml:space="preserve">
+    <value>Uniform Fees Discount</value>
+  </data>
+  <data name="Pay Fees" xml:space="preserve">
+    <value>Pay Fees</value>
+  </data>
+  <data name="Payments Return" xml:space="preserve">
+    <value>Payments Return</value>
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="Return to Wallet" xml:space="preserve">
+    <value>Return to Wallet</value>
+  </data>
+  <data name="Cash back" xml:space="preserve">
+    <value>Cash back</value>
+  </data>
+  <data name="Wallet Return" xml:space="preserve">
+    <value>Wallet Return</value>
+  </data>
+  <data name="Payments By Types" xml:space="preserve">
+    <value>Payments By Types</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="Income Payments" xml:space="preserve">
+    <value>Income Payments</value>
+  </data>
+  <data name="Payments By Fees Type" xml:space="preserve">
+    <value>Payments By Fees Type</value>
+  </data>
+  <data name="Payments By Users" xml:space="preserve">
+    <value>Payments By Users</value>
+  </data>
+  <data name="Expenses" xml:space="preserve">
+    <value>Expenses</value>
+  </data>
+  <data name="Daily Income" xml:space="preserve">
+    <value>Daily Income</value>
+  </data>
+  <data name="Income Details" xml:space="preserve">
+    <value>Income Details</value>
+  </data>
+  <data name="UnPaid Fees" xml:space="preserve">
+    <value>UnPaid Fees</value>
+  </data>
+  <data name="Return Date" xml:space="preserve">
+    <value>Return Date</value>
+  </data>
+  <data name="In Expense" xml:space="preserve">
+    <value>In Expense</value>
+  </data>
+  <data name="Out Expense" xml:space="preserve">
+    <value>Out Expense</value>
+  </data>
+  <data name="Receipt" xml:space="preserve">
+    <value>Receipt</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="All Schools" xml:space="preserve">
+    <value>All Schools</value>
+  </data>
+  <data name="All Stages" xml:space="preserve">
+    <value>All Stages</value>
+  </data>
+  <data name="Bus Fees" xml:space="preserve">
+    <value>Bus Fees</value>
+  </data>
+  <data name="Create Bus Fees" xml:space="preserve">
+    <value>Create Bus Fees</value>
+  </data>
+  <data name="Edit Bus Fees" xml:space="preserve">
+    <value>Edit Bus Fees</value>
+  </data>
+  <data name="Pay Uniform" xml:space="preserve">
+    <value>Pay Uniform</value>
+  </data>
+  <data name="AssignToClass" xml:space="preserve">
+    <value>Assign To Class</value>
+  </data>
+  <data name="AssignToClassDesc" xml:space="preserve">
+    <value>Add or Remove Students From Classes</value>
+  </data>
+  <data name="Join Bus" xml:space="preserve">
+    <value>Join Bus</value>
+  </data>
+  <data name="Finance Settings" xml:space="preserve">
+    <value>Finance Settings</value>
+  </data>
+  <data name="Payments Information" xml:space="preserve">
+    <value>Payments Information</value>
+  </data>
+  <data name="ClassWall" xml:space="preserve">
+    <value>Class Wall</value>
+  </data>
+  <data name="ClassWallDesc" xml:space="preserve">
+    <value>Managing Content Sent To Classes</value>
+  </data>
+  <data name="EmailManagement" xml:space="preserve">
+    <value>Email Management</value>
+  </data>
+  <data name="EmailManagementDesc" xml:space="preserve">
+    <value>Manage Email Operation</value>
+  </data>
+  <data name="ParentManagement" xml:space="preserve">
+    <value>Parent Management</value>
+  </data>
+  <data name="ParentManagementDesc" xml:space="preserve">
+    <value>Managing All Parent Operations</value>
+  </data>
+  <data name="ProfilePermissions" xml:space="preserve">
+    <value>Profile Permissions</value>
+  </data>
+  <data name="ProfilePermissionsDesc" xml:space="preserve">
+    <value>Manage Permission Attached To A Profile</value>
+  </data>
+  <data name="ProfilesDesc" xml:space="preserve">
+    <value>Managing Profiles</value>
+  </data>
+  <data name="StudentAffair" xml:space="preserve">
+    <value>Student Affairs</value>
+  </data>
+  <data name="StudentManagement" xml:space="preserve">
+    <value>Student Affairs Management</value>
+  </data>
+  <data name="StudentManagementDesc" xml:space="preserve">
+    <value>Managing All Students Operations</value>
+  </data>
+  <data name="UserProfiles" xml:space="preserve">
+    <value>User Profiles</value>
+  </data>
+  <data name="UserProfilesDesc" xml:space="preserve">
+    <value>Managing User Profiles Operations</value>
+  </data>
+  <data name="UsersDesc" xml:space="preserve">
+    <value>Manage Users Operations</value>
+  </data>
+  <data name="UsersManagment" xml:space="preserve">
+    <value>Users Managment</value>
+  </data>
+  <data name="UsersManagmentDesc" xml:space="preserve">
+    <value>Managing All Users Operations</value>
+  </data>
+  <data name="Bank Deposites" xml:space="preserve">
+    <value>Bank Deposites</value>
+  </data>
+  <data name="Create Bank Deposite" xml:space="preserve">
+    <value>Create Bank Deposite</value>
+  </data>
+  <data name="Edit Bank Deposite" xml:space="preserve">
+    <value>Edit Bank Deposite</value>
+  </data>
+  <data name="Added Date" xml:space="preserve">
+    <value>Added Date</value>
+  </data>
+  <data name="Deposite By" xml:space="preserve">
+    <value>Deposite By</value>
+  </data>
+  <data name="Deposite Date" xml:space="preserve">
+    <value>Deposite Date</value>
+  </data>
+  <data name="Wallet Balance" xml:space="preserve">
+    <value>Wallet Balance</value>
+  </data>
+  <data name="All Fees" xml:space="preserve">
+    <value>All Fees</value>
+  </data>
+  <data name="Unpaid School Fees" xml:space="preserve">
+    <value>Unpaid School Fees</value>
+  </data>
+  <data name="Bus Lines" xml:space="preserve">
+    <value>Bus Lines</value>
+  </data>
+  <data name="Expenses In and Out" xml:space="preserve">
+    <value>Expenses In and Out</value>
+  </data>
+  <data name="Income" xml:space="preserve">
+    <value>Income</value>
+  </data>
+  <data name="Outcome" xml:space="preserve">
+    <value>Outcome</value>
+  </data>
+  <data name="Unpaid Bus Fees" xml:space="preserve">
+    <value>Unpaid Bus Fees</value>
+  </data>
+  <data name="Automatic Discounts" xml:space="preserve">
+    <value>Automatic Discounts</value>
+  </data>
+  <data name="Create Automatic Discounts" xml:space="preserve">
+    <value>Create Automatic Discounts</value>
+  </data>
+  <data name="Edit Automatic Discounts" xml:space="preserve">
+    <value>Edit Automatic Discounts</value>
+  </data>
+  <data name="Use Wallet Balance" xml:space="preserve">
+    <value>Use Wallet Balance</value>
+  </data>
+  <data name="Finance Reports" xml:space="preserve">
+    <value>Finance Reports</value>
+  </data>
+  <data name="Created Date" xml:space="preserve">
+    <value>Created Date</value>
+  </data>
+  <data name="Receipt No" xml:space="preserve">
+    <value>Receipt No</value>
+  </data>
+  <data name="All Bus Lines" xml:space="preserve">
+    <value>All Bus Lines</value>
+  </data>
+  <data name="Create Unpaid Fees Student" xml:space="preserve">
+    <value>Create Unpaid Fees Student</value>
+  </data>
+  <data name="Unpaid Fees Students" xml:space="preserve">
+    <value>Unpaid Fees Students</value>
+  </data>
+  <data name="Returned" xml:space="preserve">
+    <value>Returned</value>
+  </data>
+  <data name="BankDeposites" xml:space="preserve">
+    <value>Bank Deposites</value>
+  </data>
+  <data name="BusFees" xml:space="preserve">
+    <value>Bus Fees</value>
+  </data>
+  <data name="BusFeesReport" xml:space="preserve">
+    <value>BusFees Report</value>
+  </data>
+  <data name="DailyIncomeReport" xml:space="preserve">
+    <value>Daily Income Report</value>
+  </data>
+  <data name="ExpenseCategories" xml:space="preserve">
+    <value>Expense Categories</value>
+  </data>
+  <data name="ExpensesReport" xml:space="preserve">
+    <value>Expenses Report</value>
+  </data>
+  <data name="FeeDiscounts" xml:space="preserve">
+    <value>Fee Discounts</value>
+  </data>
+  <data name="FeeGroups" xml:space="preserve">
+    <value>Fee Groups</value>
+  </data>
+  <data name="FeeGroupStudents" xml:space="preserve">
+    <value>Fee Group Students</value>
+  </data>
+  <data name="FeeTypes" xml:space="preserve">
+    <value>Fee Types</value>
+  </data>
+  <data name="FilterBankDeposites" xml:space="preserve">
+    <value>Filter Bank Deposites</value>
+  </data>
+  <data name="FilterSchoolExpenses" xml:space="preserve">
+    <value>Filter School Expenses</value>
+  </data>
+  <data name="FilterStudentPayments" xml:space="preserve">
+    <value>Filter Student Payments</value>
+  </data>
+  <data name="FilterStudentWallet" xml:space="preserve">
+    <value>Filter Student Wallet</value>
+  </data>
+  <data name="IncomeDetailsReport" xml:space="preserve">
+    <value>Income Details Report</value>
+  </data>
+  <data name="IncomePaymentsReport" xml:space="preserve">
+    <value>Income Report</value>
+  </data>
+  <data name="JoinFees" xml:space="preserve">
+    <value>Join Fees</value>
+  </data>
+  <data name="MainFees" xml:space="preserve">
+    <value>Main Fees</value>
+  </data>
+  <data name="OtherFees" xml:space="preserve">
+    <value>Other Fees</value>
+  </data>
+  <data name="OutcomePaymentsReport" xml:space="preserve">
+    <value>Outcome Report</value>
+  </data>
+  <data name="SchoolExpenses" xml:space="preserve">
+    <value>School Expenses</value>
+  </data>
+  <data name="SchoolFeesReport" xml:space="preserve">
+    <value>School Fees Report</value>
+  </data>
+  <data name="StudentDiscounts" xml:space="preserve">
+    <value>Student Discounts</value>
+  </data>
+  <data name="StudentPayments" xml:space="preserve">
+    <value>Student Payments</value>
+  </data>
+  <data name="StudentPaymentsCreateWithPaydate" xml:space="preserve">
+    <value>Student Payments Create With Paydate</value>
+  </data>
+  <data name="StudentPaymentsReport" xml:space="preserve">
+    <value>Student Payments Report</value>
+  </data>
+  <data name="StudentUnPaidFees" xml:space="preserve">
+    <value>Student UnPaid Fees</value>
+  </data>
+  <data name="StudentWallet" xml:space="preserve">
+    <value>Student Wallet</value>
+  </data>
+  <data name="UnpaidBusfeesReport" xml:space="preserve">
+    <value>Unpaid Busfees Report</value>
+  </data>
+  <data name="UnpaidSchoolFeesReport" xml:space="preserve">
+    <value>Unpaid School Fees Report</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="BankDepositesDesc" xml:space="preserve">
+    <value>BankDepositesDesc</value>
+  </data>
+  <data name="BusFeesDesc" xml:space="preserve">
+    <value>BusFeesDesc</value>
+  </data>
+  <data name="BusFeesReportDesc" xml:space="preserve">
+    <value>BusFeesReportDesc</value>
+  </data>
+  <data name="DailyIncomeReportDesc" xml:space="preserve">
+    <value>DailyIncomeReportDesc</value>
+  </data>
+  <data name="ExpenseCategoriesDesc" xml:space="preserve">
+    <value>ExpenseCategoriesDesc</value>
+  </data>
+  <data name="ExpensesReportDesc" xml:space="preserve">
+    <value>ExpensesReportDesc</value>
+  </data>
+  <data name="FeeDiscountsDesc" xml:space="preserve">
+    <value>FeeDiscountsDesc</value>
+  </data>
+  <data name="FeeGroupsDesc" xml:space="preserve">
+    <value>FeeGroupsDesc</value>
+  </data>
+  <data name="FeeGroupStudentsDesc" xml:space="preserve">
+    <value>FeeGroupStudentsDesc</value>
+  </data>
+  <data name="FeeTypesDesc" xml:space="preserve">
+    <value>FeeTypesDesc</value>
+  </data>
+  <data name="FilterBankDepositesDesc" xml:space="preserve">
+    <value>FilterBankDepositesDesc</value>
+  </data>
+  <data name="FilterSchoolExpensesDesc" xml:space="preserve">
+    <value>FilterSchoolExpensesDesc</value>
+  </data>
+  <data name="FilterStudentPaymentsDesc" xml:space="preserve">
+    <value>FilterStudentPaymentsDesc</value>
+  </data>
+  <data name="FilterStudentWalletDesc" xml:space="preserve">
+    <value>FilterStudentWalletDesc</value>
+  </data>
+  <data name="FinanceDesc" xml:space="preserve">
+    <value>Finanace Management</value>
+  </data>
+  <data name="IncomeDetailsReportDesc" xml:space="preserve">
+    <value>IncomeDetailsReportDesc</value>
+  </data>
+  <data name="IncomePaymentsReportDesc" xml:space="preserve">
+    <value>IncomePaymentsReportDesc</value>
+  </data>
+  <data name="JoinFeesDesc" xml:space="preserve">
+    <value>JoinFeesDesc</value>
+  </data>
+  <data name="MainFeesDesc" xml:space="preserve">
+    <value>MainFeesDesc</value>
+  </data>
+  <data name="OtherFeesDesc" xml:space="preserve">
+    <value>OtherFeesDesc</value>
+  </data>
+  <data name="OutcomePaymentsReportDesc" xml:space="preserve">
+    <value>OutcomePaymentsReportDesc</value>
+  </data>
+  <data name="SchoolExpensesDesc" xml:space="preserve">
+    <value>SchoolExpensesDesc</value>
+  </data>
+  <data name="SchoolFeesReportDesc" xml:space="preserve">
+    <value>SchoolFeesReportDesc</value>
+  </data>
+  <data name="StudentDiscountsDesc" xml:space="preserve">
+    <value>StudentDiscountsDesc</value>
+  </data>
+  <data name="StudentPaymentsCreateWithPaydateDesc" xml:space="preserve">
+    <value>StudentPaymentsCreateWithPaydateDesc</value>
+  </data>
+  <data name="StudentPaymentsDesc" xml:space="preserve">
+    <value>StudentPaymentsDesc</value>
+  </data>
+  <data name="StudentPaymentsReportDesc" xml:space="preserve">
+    <value>StudentPaymentsReportDesc</value>
+  </data>
+  <data name="StudentUnPaidFeesDesc" xml:space="preserve">
+    <value>StudentUnPaidFeesDesc</value>
+  </data>
+  <data name="StudentWalletDesc" xml:space="preserve">
+    <value>StudentWalletDesc</value>
+  </data>
+  <data name="UnpaidBusfeesReportDesc" xml:space="preserve">
+    <value>UnpaidBusfeesReportDesc</value>
+  </data>
+  <data name="UnpaidSchoolFeesReportDesc" xml:space="preserve">
+    <value>UnpaidSchoolFeesReportDesc</value>
+  </data>
+  <data name="BookDesc" xml:space="preserve">
+    <value>Book Description</value>
+  </data>
+  <data name="SelectAttendanceByDate" xml:space="preserve">
+    <value>Select Attendance By Date</value>
+  </data>
+  <data name="BookOrders" xml:space="preserve">
+    <value>Book Orders</value>
+  </data>
+  <data name="BookOrdersDesc" xml:space="preserve">
+    <value>Book Orders Description</value>
+  </data>
+  <data name="BookPurchases" xml:space="preserve">
+    <value>Book Purchases</value>
+  </data>
+  <data name="BookPurchasesDesc" xml:space="preserve">
+    <value>Book Purchases Description</value>
+  </data>
+  <data name="CategoryDesc" xml:space="preserve">
+    <value>Category Description</value>
+  </data>
+  <data name="FilterUniformOrders" xml:space="preserve">
+    <value>Filter Uniform Orders</value>
+  </data>
+  <data name="FilterUniformOrdersDesc" xml:space="preserve">
+    <value>Filter Uniform Orders Description</value>
+  </data>
+  <data name="FilterUniformReplaces" xml:space="preserve">
+    <value>Filter Uniform Replaces</value>
+  </data>
+  <data name="FilterUniformReplacesDesc" xml:space="preserve">
+    <value>Filter Uniform Replaces Description</value>
+  </data>
+  <data name="InvoiceSettingDisplay" xml:space="preserve">
+    <value>Invoice Setting Display</value>
+  </data>
+  <data name="InvoiceSettingDisplayDesc" xml:space="preserve">
+    <value>Invoice Setting Display Description</value>
+  </data>
+  <data name="ProductDesc" xml:space="preserve">
+    <value>Product Description</value>
+  </data>
+  <data name="SchoolTools" xml:space="preserve">
+    <value>School Tools</value>
+  </data>
+  <data name="SchoolToolsDesc" xml:space="preserve">
+    <value>School Tools Description</value>
+  </data>
+  <data name="Stock" xml:space="preserve">
+    <value>Stock</value>
+  </data>
+  <data name="StockDesc" xml:space="preserve">
+    <value>Stock Description</value>
+  </data>
+  <data name="SupplierDesc" xml:space="preserve">
+    <value>Supplier Description</value>
+  </data>
+  <data name="ToolOrders" xml:space="preserve">
+    <value>Tool Orders</value>
+  </data>
+  <data name="ToolOrdersDesc" xml:space="preserve">
+    <value>Tool Orders Description</value>
+  </data>
+  <data name="ToolPurchases" xml:space="preserve">
+    <value>Tool Purchases</value>
+  </data>
+  <data name="ToolPurchasesDesc" xml:space="preserve">
+    <value>Tool Purchases Description</value>
+  </data>
+  <data name="UniformOrders" xml:space="preserve">
+    <value>Uniform Orders</value>
+  </data>
+  <data name="UniformOrdersDesc" xml:space="preserve">
+    <value>Uniform Orders Description</value>
+  </data>
+  <data name="UniformPackages" xml:space="preserve">
+    <value>Uniform Packages</value>
+  </data>
+  <data name="UniformPackagesDesc" xml:space="preserve">
+    <value>Uniform Packages Description</value>
+  </data>
+  <data name="UniformPurchases" xml:space="preserve">
+    <value>Uniform Purchases</value>
+  </data>
+  <data name="UniformPurchasesDesc" xml:space="preserve">
+    <value>Uniform Purchases Description</value>
+  </data>
+  <data name="UniformReplaces" xml:space="preserve">
+    <value>Uniform Replaces</value>
+  </data>
+  <data name="UniformReplacesDesc" xml:space="preserve">
+    <value>Uniform Replaces Description</value>
+  </data>
+  <data name="AdmissionSetting" xml:space="preserve">
+    <value>Admission Setting</value>
+  </data>
+  <data name="AdmissionSettingDesc" xml:space="preserve">
+    <value>Controlling the required fields in admission</value>
+  </data>
+  <data name="StudentAdmission" xml:space="preserve">
+    <value>Student Admission</value>
+  </data>
+  <data name="StudentAdmissionDesc" xml:space="preserve">
+    <value>Managing admission and accept or refuse </value>
+  </data>
+  <data name="Suspended_Review_Contract" xml:space="preserve">
+    <value>Please Review School Agreement</value>
+  </data>
+  <data name="Suspended_Review_Finance" xml:space="preserve">
+    <value>Please Review School Finance</value>
+  </data>
+  <data name="Create TimeTable For" xml:space="preserve">
+    <value>Create TimeTable For </value>
+  </data>
+  <data name="flag-ar-EG" xml:space="preserve">
+    <value>flag-icon flag-icon-sa</value>
+  </data>
+  <data name="flag-en-US" xml:space="preserve">
+    <value>flag-icon flag-icon-us</value>
+  </data>
+  <data name="AccessControl" xml:space="preserve">
+    <value>Access Control</value>
+  </data>
+  <data name="AccessControlDesc" xml:space="preserve">
+    <value>Access Control Desc</value>
+  </data>
+  <data name="Bus" xml:space="preserve">
+    <value>Bus</value>
+  </data>
+  <data name="BusAreas" xml:space="preserve">
+    <value>Bus Areas</value>
+  </data>
+  <data name="BusAreasDesc" xml:space="preserve">
+    <value>Bus Areas Desc</value>
+  </data>
+  <data name="ClassTimeTable" xml:space="preserve">
+    <value>Class TimeTable</value>
+  </data>
+  <data name="ClassTimeTableDesc" xml:space="preserve">
+    <value>ClassTimeTable Desc</value>
+  </data>
+  <data name="CourseMaterial" xml:space="preserve">
+    <value>Course Material</value>
+  </data>
+  <data name="CourseMaterialDesc" xml:space="preserve">
+    <value>CourseMaterial Desc</value>
+  </data>
+  <data name="EducationDepartment" xml:space="preserve">
+    <value>Education Department</value>
+  </data>
+  <data name="EducationDepartmentDesc" xml:space="preserve">
+    <value>Education Department Desc</value>
+  </data>
+  <data name="HOD" xml:space="preserve">
+    <value>Managerial Section</value>
+  </data>
+  <data name="HODClassWall" xml:space="preserve">
+    <value>Class Wall</value>
+  </data>
+  <data name="HODHomework" xml:space="preserve">
+    <value>Homework</value>
+  </data>
+  <data name="HODTimeTable" xml:space="preserve">
+    <value>TimeTable</value>
+  </data>
+  <data name="HODVClass" xml:space="preserve">
+    <value>Virtual Class</value>
+  </data>
+  <data name="HODWeekPlan" xml:space="preserve">
+    <value>Week Plan</value>
+  </data>
+  <data name="Homework" xml:space="preserve">
+    <value>Homework</value>
+  </data>
+  <data name="HomeworkDesc" xml:space="preserve">
+    <value>Homework Desc</value>
+  </data>
+  <data name="ImportData" xml:space="preserve">
+    <value>Import Data</value>
+  </data>
+  <data name="ImportEmployee" xml:space="preserve">
+    <value>Import Employee</value>
+  </data>
+  <data name="ImportStudent" xml:space="preserve">
+    <value>Import Student</value>
+  </data>
+  <data name="ImportStudentFee" xml:space="preserve">
+    <value>Import Student Fee</value>
+  </data>
+  <data name="NoticeBoard" xml:space="preserve">
+    <value>Notice Board</value>
+  </data>
+  <data name="PaidSchoolFeesReport" xml:space="preserve">
+    <value>Paid School Fees Report</value>
+  </data>
+  <data name="PaidSchoolFeesReportDesc" xml:space="preserve">
+    <value>Paid School Fees Report Desc</value>
+  </data>
+  <data name="StudentClassWall" xml:space="preserve">
+    <value>Class Wall</value>
+  </data>
+  <data name="StudentCourseMaterial" xml:space="preserve">
+    <value>Course Material</value>
+  </data>
+  <data name="StudentHomework" xml:space="preserve">
+    <value>Homework</value>
+  </data>
+  <data name="StudentTimeTables" xml:space="preserve">
+    <value>TimeTable</value>
+  </data>
+  <data name="StudentVClass" xml:space="preserve">
+    <value>Virtual Class</value>
+  </data>
+  <data name="StudentWeekPlan" xml:space="preserve">
+    <value>Week Plan</value>
+  </data>
+  <data name="TeacherCourses" xml:space="preserve">
+    <value>Teacher Courses</value>
+  </data>
+  <data name="TeacherCoursesDesc" xml:space="preserve">
+    <value>Teacher Courses Desc</value>
+  </data>
+  <data name="TeacherStudentAttendance" xml:space="preserve">
+    <value>Student Attendance</value>
+  </data>
+  <data name="TeacherStudentAttendanceDesc" xml:space="preserve">
+    <value>StudentAttendance Desc</value>
+  </data>
+  <data name="TeacherTimeTable" xml:space="preserve">
+    <value>Teacher TimeTable</value>
+  </data>
+  <data name="TeacherTimeTableDesc" xml:space="preserve">
+    <value>Teacher TimeTable Desc</value>
+  </data>
+  <data name="TeacherVClass" xml:space="preserve">
+    <value>Virtual Class</value>
+  </data>
+  <data name="TeacherVClassDesc" xml:space="preserve">
+    <value>Virtual Class Desc</value>
+  </data>
+  <data name="TeacherVWorkshop" xml:space="preserve">
+    <value>Virtual Workshop</value>
+  </data>
+  <data name="TeacherVWorkshopDesc" xml:space="preserve">
+    <value>Virtual Workshop Desc</value>
+  </data>
+  <data name="VirtualWorkshop" xml:space="preserve">
+    <value>Virtual Workshop</value>
+  </data>
+  <data name="Detail" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="WarnningEditTermKey" xml:space="preserve">
+    <value>Please note that if the start date or end date is modified, all school weeks names would be modified and add or delete weeks according to selected dates.</value>
+  </data>
+  <data name="ParentRegisterEmailExists" xml:space="preserve">
+    <value>Sorry, you can't register now because this email is already exists please try with another email.
+&amp;
+عذرا ، لا يمكنك التسجيل الآن لأن هذا البريد الإلكتروني موجود بالفعل ، يرجى المحاولة باستخدام بريد إلكتروني آخر</value>
+  </data>
+  <data name="ParentRegisterNotFoundParentIdentity" xml:space="preserve">
+    <value>Sorry, you can't register now because the parent's national number for this student is not the same as the national number that was registered when registering the student's data.
+&amp;
+عذرا ، لا يمكنك التسجيل الآن لأن الرقم القومي لولي الأمر لهذا الطالب ليس نفس الرقم القومي الذي تم تسجيله عند تسجيل بيانات الطالب</value>
+  </data>
+  <data name="ParentRegisterNotFoundStudent" xml:space="preserve">
+    <value>Sorry, you can't register now because not found any student have this National ID.
+&amp;
+عذرا ، لا يمكنك التسجيل الآن لعدم العثور على أي طالب لديه هذه الهوية الوطنية</value>
+  </data>
+  <data name="ParentRegisterStudentDeleted" xml:space="preserve">
+    <value>Sorry, you can't register now because This student has been deleted.
+&amp;
+عذرا ، لا يمكنك التسجيل الآن لأنه تم حذف هذا الطالب</value>
+  </data>
+  <data name="ParentRegisterStudentHaveParent" xml:space="preserve">
+    <value>Sorry, you can't register now because this student already have a parent before.
+&amp;
+عذرا ، لا يمكنك التسجيل الآن لأن هذا الطالب لديه أحد والديه بالفعل من قبل</value>
+  </data>
+  <data name="ResultExamDesc" xml:space="preserve">
+    <value>If this feature is open, the exam result will appear to students, and if it is closed, the exam result will not appear</value>
+  </data>
+  <data name="StudentExamSchedule" xml:space="preserve">
+    <value>Exams Schedule</value>
+  </data>
+  <data name="GradeStudentsReport" xml:space="preserve">
+    <value>Grade Students Report</value>
+  </data>
+  <data name="HODClassTimeTable" xml:space="preserve">
+    <value>Classes TimeTable</value>
+  </data>
+  <data name="Attendances" xml:space="preserve">
+    <value>Attendance</value>
+  </data>
+  <data name="Student Attendances" xml:space="preserve">
+    <value>Attendance</value>
+  </data>
+  <data name="Teacher TimeTable" xml:space="preserve">
+    <value>Teacher's timetable</value>
+  </data>
+  <data name="WeekPlan" xml:space="preserve">
+    <value>Weekly plan</value>
+  </data>
+  <data name="WeekPlans" xml:space="preserve">
+    <value>Weekly plan</value>
+  </data>
+  <data name="FinalDegrees" xml:space="preserve">
+    <value>Final Degrees</value>
+  </data>
+  <data name="StudentExamResult" xml:space="preserve">
+    <value>Student Exam Result</value>
+  </data>
+  <data name="GradingSystem" xml:space="preserve">
+    <value>Grading System</value>
+  </data>
+  <data name="FinalCertificate" xml:space="preserve">
+    <value>Final Certificates</value>
+  </data>
+  <data name="AmericanStudentEvaluations" xml:space="preserve">
+    <value>American Student Evaluations</value>
+  </data>
+  <data name="NationalMonthlyStudentEvaluations" xml:space="preserve">
+    <value>National Monthly Student Evaluations</value>
+  </data>
+  <data name="Secondlanguage" xml:space="preserve">
+    <value>Second Language</value>
+  </data>
+  <data name="OnlyImageAreAllowed!" xml:space="preserve">
+    <value>Only Image Are Allowed !</value>
+  </data>
+  <data name="No Users using this profile" xml:space="preserve">
+    <value>No Users using this profile</value>
+  </data>
+  <data name="UsersCount" xml:space="preserve">
+    <value>Users Count</value>
+  </data>
+  <data name="UsersInformation" xml:space="preserve">
+    <value>Users Information</value>
+  </data>
+  <data name="Are you sure you want to Unassign This Class ...?" xml:space="preserve">
+    <value>Are you sure you want to Unassign This Class ...?</value>
+  </data>
+  <data name="Assign To Classes" xml:space="preserve">
+    <value>Assign To Classes</value>
+  </data>
+  <data name="Assigned Classed" xml:space="preserve">
+    <value>Assigned Classed</value>
+  </data>
+  <data name="Assigned Successfully..!" xml:space="preserve">
+    <value>Assigned Successfully..!</value>
+  </data>
+  <data name="Course Topics" xml:space="preserve">
+    <value>Course Topics</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Mateials" xml:space="preserve">
+    <value>Mateials</value>
+  </data>
+  <data name="Material Detail" xml:space="preserve">
+    <value>Material Detail</value>
+  </data>
+  <data name="No Classes" xml:space="preserve">
+    <value>No Classes</value>
+  </data>
+  <data name="No Courses" xml:space="preserve">
+    <value>No Courses</value>
+  </data>
+  <data name="No Courses Topics" xml:space="preserve">
+    <value>No Courses Topics</value>
+  </data>
+  <data name="No ELibrary" xml:space="preserve">
+    <value>No ELibrary</value>
+  </data>
+  <data name="PublishDate" xml:space="preserve">
+    <value>Publish Date</value>
+  </data>
+  <data name="Select Course" xml:space="preserve">
+    <value>Select Course</value>
+  </data>
+  <data name="Unassign" xml:space="preserve">
+    <value>Unassign</value>
+  </data>
+  <data name="Please Select a Proper End Date" xml:space="preserve">
+    <value>Please Select a Proper End Date</value>
+  </data>
+  <data name="Please Select a Proper Start Date" xml:space="preserve">
+    <value>Please Select a Proper Start Date</value>
+  </data>
+  <data name="Assign Exam" xml:space="preserve">
+    <value>Assign Exam</value>
+  </data>
+  <data name="Assign to Class or Student" xml:space="preserve">
+    <value>Assign to Class or Student</value>
+  </data>
+  <data name="StudentExam" xml:space="preserve">
+    <value>StudentExam</value>
+  </data>
+  <data name="Exam Assigned to Class Successfully" xml:space="preserve">
+    <value>Exam Assigned to Class Successfully</value>
+  </data>
+  <data name="Exam Assigned to Student Successfully" xml:space="preserve">
+    <value>Exam Assigned to Student Successfully</value>
+  </data>
+  <data name="Assigned To Class" xml:space="preserve">
+    <value>Assigned To Class</value>
+  </data>
+  <data name="Assigned To Student" xml:space="preserve">
+    <value>Assigned To Student</value>
+  </data>
+  <data name="Exam" xml:space="preserve">
+    <value>Exam</value>
+  </data>
+  <data name="has been" xml:space="preserve">
+    <value>has been</value>
+  </data>
+  <data name="Curren Lecture Details" xml:space="preserve">
+    <value>Current Lecture Details</value>
+  </data>
+  <data name="Publish Date" xml:space="preserve">
+    <value>Publish Date</value>
+  </data>
+  <data name="Homework Removed from Class Successfully" xml:space="preserve">
+    <value>Homework Removed from Class Successfully</value>
+  </data>
+  <data name="Homework Removed from Student Successfully" xml:space="preserve">
+    <value>Homework Removed from Student Successfully</value>
+  </data>
+  <data name="Assignment Removed from Class Successfully" xml:space="preserve">
+    <value>Assignment Removed from Class Successfully</value>
+  </data>
+  <data name="Assignment Removed from Student Successfully" xml:space="preserve">
+    <value>Assignment Removed from Student Successfully</value>
+  </data>
+  <data name="Classwork Removed from Class Successfully" xml:space="preserve">
+    <value>Classwork Removed from Class Successfully</value>
+  </data>
+  <data name="Classwork Removed from Student Successfully" xml:space="preserve">
+    <value>Classwork Removed from Student Successfully</value>
+  </data>
+  <data name="Project Removed from Class Successfully" xml:space="preserve">
+    <value>Project Removed from Class Successfully</value>
+  </data>
+  <data name="Project Removed from Student Successfully" xml:space="preserve">
+    <value>Project Removed from Student Successfully</value>
+  </data>
+  <data name="ExtraHomework" xml:space="preserve">
+    <value>Extra Homework</value>
+  </data>
+  <data name="You can not delete this ExtraHomework because it is already assigned to students" xml:space="preserve">
+    <value>You can not delete this ExtraHomework because it is already assigned to students</value>
+  </data>
+  <data name="You can not delete this Homework because it is already assigned to students" xml:space="preserve">
+    <value>You can not delete this Homework because it is already assigned to students</value>
+  </data>
+  <data name="Classwork Deleted Successfully" xml:space="preserve">
+    <value>Classwork Deleted Successfully</value>
+  </data>
+  <data name="Homework Deleted Successfully" xml:space="preserve">
+    <value>Homework Deleted Successfully</value>
+  </data>
+  <data name="Project Deleted Successfully" xml:space="preserve">
+    <value>Project Deleted Successfully</value>
+  </data>
+  <data name="All Classes" xml:space="preserve">
+    <value>All Classes</value>
+  </data>
+  <data name="Can't Save Mark" xml:space="preserve">
+    <value>Can't Save Mark</value>
+  </data>
+  <data name="Teacher Comment Can't be empty" xml:space="preserve">
+    <value>Teacher Comment Can't be empty</value>
+  </data>
+  <data name="This Mark Can't be applied" xml:space="preserve">
+    <value>This Mark Can't be applied</value>
+  </data>
+  <data name="Publish Time" xml:space="preserve">
+    <value>Publish Time</value>
+  </data>
+  <data name="No Class Wall For This Cours" xml:space="preserve">
+    <value>No Class Wall For This Cours</value>
+  </data>
+  <data name="SelectClass" xml:space="preserve">
+    <value>Select Class</value>
+  </data>
+  <data name="SelectCourse" xml:space="preserve">
+    <value>Select Course</value>
+  </data>
+  <data name="Notified" xml:space="preserve">
+    <value>Notified</value>
+  </data>
+  <data name="ExittoAdmin" xml:space="preserve">
+    <value>Exit to Admin</value>
+  </data>
+  <data name="ExittoSupport" xml:space="preserve">
+    <value>Exit to Support</value>
+  </data>
+  <data name="Modified By" xml:space="preserve">
+    <value>Modified By</value>
+  </data>
+  <data name="Retrieve Deleted Students" xml:space="preserve">
+    <value>Retrieve Deleted Students</value>
+  </data>
+  <data name="Deleted Students" xml:space="preserve">
+    <value>Deleted Students</value>
+  </data>
+  <data name="Retrieve Student" xml:space="preserve">
+    <value>Retrieve Student</value>
+  </data>
+  <data name="Deleted Employees" xml:space="preserve">
+    <value>Deleted Employees</value>
+  </data>
+  <data name="Deleted Teachers" xml:space="preserve">
+    <value>Deleted Teachers</value>
+  </data>
+  <data name="Deleted Users" xml:space="preserve">
+    <value>Deleted Users</value>
+  </data>
+  <data name="Retrieve Employee" xml:space="preserve">
+    <value>Retrieve Employee</value>
+  </data>
+  <data name="Retrieve Teacher" xml:space="preserve">
+    <value>Retrieve Teacher</value>
+  </data>
+  <data name="RetrieveDeletedEmployees" xml:space="preserve">
+    <value>Retrieve Deleted Employees</value>
+  </data>
+  <data name="RetrieveDeletedStudentManagement" xml:space="preserve">
+    <value>Retrieve Deleted Student</value>
+  </data>
+  <data name="EnableParentSubmit" xml:space="preserve">
+    <value>Enable Parent Submit</value>
+  </data>
+  <data name="StageSetting" xml:space="preserve">
+    <value>Stage Setting</value>
+  </data>
+  <data name="MyStudents" xml:space="preserve">
+    <value>My Students</value>
+  </data>
+  <data name="TotalClasswork" xml:space="preserve">
+    <value>Total Classwork</value>
+  </data>
+  <data name="TotalHomework" xml:space="preserve">
+    <value>Total Homework</value>
+  </data>
+  <data name="TotalProject" xml:space="preserve">
+    <value>Total Project</value>
+  </data>
+  <data name="Totalquiz" xml:space="preserve">
+    <value>Total quiz</value>
+  </data>
+  <data name="ClassName" xml:space="preserve">
+    <value>Class Name</value>
+  </data>
+  <data name="days" xml:space="preserve">
+    <value>days</value>
+  </data>
+  <data name="Quiz" xml:space="preserve">
+    <value>Quiz</value>
+  </data>
+  <data name="StudentName" xml:space="preserve">
+    <value>Student Name</value>
+  </data>
+  <data name="StudentsPerformance" xml:space="preserve">
+    <value>Students Performance</value>
+  </data>
+  <data name="DeletedBy" xml:space="preserve">
+    <value>Deleted By</value>
+  </data>
+  <data name="EmployeeNoticeBoard" xml:space="preserve">
+    <value>Employee NoticeBoard</value>
+  </data>
+  <data name="HODExam" xml:space="preserve">
+    <value>HOD Exam</value>
+  </data>
+  <data name="HODNationalMonthlyStudentEvaluations" xml:space="preserve">
+    <value>HOD National Monthly Student Evaluations</value>
+  </data>
+  <data name="HODRecycleBin" xml:space="preserve">
+    <value>HOD RecycleBin</value>
+  </data>
+  <data name="HODSaudiAmericanStudentEvaluations" xml:space="preserve">
+    <value>HOD Saudi American Student Evaluations</value>
+  </data>
+  <data name="MyStudent" xml:space="preserve">
+    <value>My Student</value>
+  </data>
+  <data name="ParantNoticeBoard" xml:space="preserve">
+    <value>Parant NoticeBoard</value>
+  </data>
+  <data name="ParentClassWall" xml:space="preserve">
+    <value>Parent Class Wall</value>
+  </data>
+  <data name="ParentClassWork" xml:space="preserve">
+    <value>Parent ClassWork</value>
+  </data>
+  <data name="ParentCourseMaterial" xml:space="preserve">
+    <value>Parent E-library</value>
+  </data>
+  <data name="ParentExamHistory" xml:space="preserve">
+    <value>Parent Exam History</value>
+  </data>
+  <data name="ParentExams" xml:space="preserve">
+    <value>Parent Exams</value>
+  </data>
+  <data name="ParentHomework" xml:space="preserve">
+    <value>Parent Homework</value>
+  </data>
+  <data name="ParentMaterial" xml:space="preserve">
+    <value>Parent Material</value>
+  </data>
+  <data name="ParentProject" xml:space="preserve">
+    <value>Parent Project</value>
+  </data>
+  <data name="ParentTimeTables" xml:space="preserve">
+    <value>Parent TimeTables</value>
+  </data>
+  <data name="ParentWeekPlan" xml:space="preserve">
+    <value>Parent Week Plan</value>
+  </data>
+  <data name="RecycleBin" xml:space="preserve">
+    <value>Recycle Bin</value>
+  </data>
+  <data name="StudentExams" xml:space="preserve">
+    <value>Student Exams</value>
+  </data>
+  <data name="StudentNoticeBoard" xml:space="preserve">
+    <value>Student NoticeBoard</value>
+  </data>
+  <data name="TeacherExam" xml:space="preserve">
+    <value>Teacher Exam</value>
+  </data>
+  <data name="TeacherExamClass" xml:space="preserve">
+    <value>Teacher Exam Class</value>
+  </data>
+  <data name="TeacherExamQuestion" xml:space="preserve">
+    <value>Teacher Exam Question</value>
+  </data>
+  <data name="TeacherVCClass" xml:space="preserve">
+    <value>Teacher Virtual CClass</value>
+  </data>
+  <data name="VCompoundClasss" xml:space="preserve">
+    <value>Virtual Compound Class</value>
+  </data>
+  <data name="ComplexSettings" xml:space="preserve">
+    <value>Complex Settings</value>
+  </data>
+  <data name="Complex" xml:space="preserve">
+    <value>Complex</value>
+  </data>
+  <data name="StudentsCount" xml:space="preserve">
+    <value>Students Count</value>
+  </data>
+  <data name="SchoolSettings" xml:space="preserve">
+    <value>School Settings</value>
+  </data>
+  <data name="SchoolName" xml:space="preserve">
+    <value>School Name</value>
+  </data>
+  <data name="StageSettings" xml:space="preserve">
+    <value>Stage Settings</value>
+  </data>
+  <data name="Can't Change Status!" xml:space="preserve">
+    <value>لا يمكن تغيير الحالة!</value>
+  </data>
+  <data name="GradeSettings" xml:space="preserve">
+    <value>Grade Settings</value>
+  </data>
+  <data name="EnableStudentStoreApp" xml:space="preserve">
+    <value>Enable Student Store App</value>
+  </data>
+  <data name="EnableVirtualClass" xml:space="preserve">
+    <value>Enable Virtual Class</value>
+  </data>
+  <data name="EnableWeekPlan" xml:space="preserve">
+    <value>Enable Week Plan</value>
+  </data>
+  <data name="GradeName" xml:space="preserve">
+    <value>Grade Name</value>
+  </data>
+  <data name="StageName" xml:space="preserve">
+    <value>Stage Name</value>
+  </data>
+  <data name="AllAccounts" xml:space="preserve">
+    <value>All accounts</value>
+  </data>
+  <data name="AllAccountsButOwner" xml:space="preserve">
+    <value>All accounts but owner</value>
+  </data>
+  <data name="OneStep" xml:space="preserve">
+    <value>One step of payment</value>
+  </data>
+  <data name="PaymentSteps" xml:space="preserve">
+    <value>Payment steps</value>
+  </data>
+  <data name="TwoStep" xml:space="preserve">
+    <value>Two steps of payment</value>
+  </data>
+  <data name="Can't Change Payment steps!" xml:space="preserve">
+    <value>Can't Change Payment steps!</value>
+  </data>
+  <data name="Payment steps Changed Successfully..!" xml:space="preserve">
+    <value>Payment steps Changed Successfully..!</value>
+  </data>
+  <data name="Fee Setting" xml:space="preserve">
+    <value>Fee Setting</value>
+  </data>
+  <data name="Students Debits" xml:space="preserve">
+    <value>Students Debits</value>
+  </data>
+  <data name="Are you sure you want to edit the payment status...?" xml:space="preserve">
+    <value>Are you sure you want to edit the payment status...?</value>
+  </data>
+  <data name="Can't edit...!" xml:space="preserve">
+    <value>Can't edit...!</value>
+  </data>
+  <data name="Edited Successfully..!" xml:space="preserve">
+    <value>Edited Successfully..!</value>
+  </data>
+  <data name="Accept" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="Reject" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="Unpaid Cheques" xml:space="preserve">
+    <value>Unpaid Cheques</value>
+  </data>
+  <data name="Banks" xml:space="preserve">
+    <value>Banks</value>
+  </data>
+  <data name="Safes" xml:space="preserve">
+    <value>Safes</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="Questions+Subquestions" xml:space="preserve">
+    <value>Questions + Subquestions</value>
+  </data>
+  <data name="Simple Question" xml:space="preserve">
+    <value>Simple Question</value>
+  </data>
+  <data name="Book Packages" xml:space="preserve">
+    <value>Book Packages</value>
+  </data>
+  <data name="Pay Book" xml:space="preserve">
+    <value>Pay Book</value>
+  </data>
+  <data name="Choose Level" xml:space="preserve">
+    <value>Choose Level</value>
+  </data>
+  <data name="Choose Skill" xml:space="preserve">
+    <value>Choose Skill</value>
+  </data>
+  <data name="Choose Topic" xml:space="preserve">
+    <value>Choose Topic</value>
+  </data>
+  <data name="Choose Unit" xml:space="preserve">
+    <value>Choose Unit</value>
+  </data>
+  <data name="Select Skill" xml:space="preserve">
+    <value>Select Skill</value>
+  </data>
+  <data name="Select Topic" xml:space="preserve">
+    <value>Select Topic</value>
+  </data>
+  <data name="Select Unit" xml:space="preserve">
+    <value>Select Unit</value>
+  </data>
+  <data name="Add New Skill" xml:space="preserve">
+    <value>Add New Skill</value>
+  </data>
+  <data name="Add New Topic" xml:space="preserve">
+    <value>Add New Topic</value>
+  </data>
+  <data name="Add New Unit" xml:space="preserve">
+    <value>Add New Unit</value>
+  </data>
+  <data name="Course Skills" xml:space="preserve">
+    <value>Course Skills</value>
+  </data>
+  <data name="Course Units" xml:space="preserve">
+    <value>Course Units</value>
+  </data>
+  <data name="SubCourseDegree" xml:space="preserve">
+    <value>SubCourseDegree</value>
+  </data>
+  <data name="SubCourseName" xml:space="preserve">
+    <value>SubCourseName</value>
+  </data>
+  <data name="SubCourseNameAr" xml:space="preserve">
+    <value>SubCourseNameAr</value>
+  </data>
+  <data name="GenderReport" xml:space="preserve">
+    <value>Gender Report</value>
+  </data>
+  <data name="ReligionReport" xml:space="preserve">
+    <value>Religion Report</value>
+  </data>
+  <data name="MinisterialRegisterReport" xml:space="preserve">
+    <value>Ministerial Register Report</value>
+  </data>
+  <data name="BrothersReport" xml:space="preserve">
+    <value>Brothers Report</value>
+  </data>
+  <data name="HealthReport" xml:space="preserve">
+    <value>Health Report</value>
+  </data>
+  <data name="GetStudentPhoneNumpersReport" xml:space="preserve">
+    <value>Get Student Phone Numpers Report</value>
+  </data>
+  <data name="PhoneNumpersReport" xml:space="preserve">
+    <value>Phone Numpers Report</value>
+  </data>
+  <data name="StudentPhoneNumpersReport" xml:space="preserve">
+    <value>Student Phone Numpers Report</value>
+  </data>
+  <data name="Elahd Report" xml:space="preserve">
+    <value>Attendance and Absence Report</value>
+  </data>
+  <data name="ElahdReport" xml:space="preserve">
+    <value>Attendance and Absence Report</value>
+  </data>
+  <data name="Culture" xml:space="preserve">
+    <value>ar-EG</value>
+  </data>
+  <data name="language" xml:space="preserve">
+    <value>العربية</value>
+  </data>
+  <data name="Driver Wallet" xml:space="preserve">
+    <value>Driver Wallet</value>
+  </data>
+  <data name="ArrivedToCustomer" xml:space="preserve">
+    <value>Arrived To Customer</value>
+  </data>
+  <data name="CanceledByBranch" xml:space="preserve">
+    <value>Canceled By Branch</value>
+  </data>
+  <data name="CanceledByCustomer" xml:space="preserve">
+    <value>Canceled By Customer</value>
+  </data>
+  <data name="CanceledByCustomerSupport" xml:space="preserve">
+    <value>Canceled By Customer Support</value>
+  </data>
+  <data name="GoToBranch" xml:space="preserve">
+    <value>Go To Branch</value>
+  </data>
+  <data name="GoToCustomer" xml:space="preserve">
+    <value>Go To Customer</value>
+  </data>
+  <data name="PickedUp" xml:space="preserve">
+    <value>Picked Up</value>
+  </data>
+  <data name="BrandSubscribtion" xml:space="preserve">
+    <value>Brand Subscribtion</value>
+  </data>
+  <data name="BrandName" xml:space="preserve">
+    <value>Brand Name</value>
+  </data>
+  <data name="ExpireDateStr" xml:space="preserve">
+    <value>Expire Date</value>
+  </data>
+  <data name="Finished" xml:space="preserve">
+    <value>Finished</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="RenewBrandSubscribtion" xml:space="preserve">
+    <value>Renew Brand Subscribtion</value>
+  </data>
+  <data name="CreationDate" xml:space="preserve">
+    <value>Creation Date</value>
+  </data>
+  <data name="Subscribtion Amount" xml:space="preserve">
+    <value>Subscribtion Amount</value>
+  </data>
+  <data name="Discount Value" xml:space="preserve">
+    <value>Discount Value</value>
+  </data>
+  <data name="Subscribtion Month Count" xml:space="preserve">
+    <value>Subscribtion Month Count</value>
+  </data>
+</root>

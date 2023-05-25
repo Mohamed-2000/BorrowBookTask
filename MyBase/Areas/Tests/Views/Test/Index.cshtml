@@ -1,0 +1,85 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="block-header">
+    <div class="row">
+        <div class="col-lg-5 col-md-8 col-sm-12">
+            <h2></h2>
+        </div>
+        <div class="col-lg-7 col-md-4 col-sm-12 text-right">
+            <ul class="breadcrumb justify-content-end">
+                <li class="breadcrumb-item"><a href="/Home/Index"><i class="icon-home"></i></a></li>
+
+                <li class="breadcrumb-item active"></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<!-- breadcrumb -->
+<div class="row clearfix">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="header">
+            </div>
+            <div class="body">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped table-hover " id="GomlaTable">
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Name</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts{
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            GetGomlaCategoriesTable();
+            console.log("done");
+        });
+        function GetGomlaCategoriesTable() {
+            $('#GomlaTable').DataTable({
+                "dom": 'lBfrtip',
+                "processing": true, // for show progress bar
+                "serverSide": true, // for process server side
+                "filter": true, // this is for disable filter (search box)
+                "orderMulti": false, // for disable multiple column at once
+                "order": [[1, 'desc']],
+                "ajax": {
+                    "url": `/Tests/Test/GetTestTable`,
+                    "type": "POST",
+                    "datatype": "json"
+                },
+                "columnDefs":
+                    [
+                        {
+                            "targets": [0],
+                            "visible": true,
+                            "searchable": true
+                        },
+
+                    ],
+                "columns": [
+                    { "data": "Id", "name": "Id", "autoWidth": true },
+                    {
+                        "data": "Name", "render": function (data, type, full, row) {
+                            return "<span class='text-wrap'>" + full.Name + "</span>";
+                        }
+                    },
+                ]
+            });
+
+        }
+    </script>
+}

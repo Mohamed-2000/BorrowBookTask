@@ -1,0 +1,15 @@
+<div class="card h-100 shadow-sm">
+  <img src="{{book.pictureUrl}}" alt="{{book.name}}" class="img-fluid bg-info">
+  <div class="card-body d-lex flex-column">
+    <a routerLink="/book/{{book.id}}">
+      <h6 class="text-uppercase">{{book.name}}</h6>
+    </a>
+    <div>
+      <span class="mb-2">{{book.AuthorName}}</span>
+    </div>
+      <div class="btn-group mt-3 col-12">
+        <button type="button" class="btn btn-outline-secondary fa fa-shopping-cart me-2 col-5"></button>
+        <button routerLink="/book/{{book.id}}"   type="button" class="btn btn-outline-secondary col-5">View</button>
+      </div>
+  </div>
+</div>
